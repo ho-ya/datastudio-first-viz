@@ -2,22 +2,22 @@
   "name": "My Visualizations",
   "organization": "RND Redaktionsnetzwerk Deutschland GmbH",
   "description": "My first visualization package.",
-  "logoUrl": "https://logo",
-  "organizationUrl": "https://url",
+  "logoUrl": "https://de.wikipedia.org/wiki/RND_Redaktionsnetzwerk_Deutschland#/media/Datei:RND_RedaktionsNetzwerk_Deutschland_Logo_03.2022.svg",
+  "organizationUrl": "https://www.rnd.de/impressum/",
   "supportUrl": "https://url",
-  "privacyPolicyUrl": "https://url",
+  "privacyPolicyUrl": "https://www.rnd.de/datenschutz/",
   "termsOfServiceUrl": "https://url",
   "packageUrl": "https://url",
   "devMode": "DEVMODE_BOOL",
   "components": [
     {
-      "name": "myViz",
-      "description": "My first Community Visualization",
-      "iconUrl": "https://url",
+      "name": "Filtered RND Partner Logos",
+      "description": "Renders differently colored SVG logos based on the current dashboard website filter",
+      "iconUrl": "https://de.wikipedia.org/wiki/RND_Redaktionsnetzwerk_Deutschland#/media/Datei:RND_RedaktionsNetzwerk_Deutschland_Logo_03.2022.svg",
       "resource": {
-        "js": "YOUR_GCS_BUCKET/index.js",
-        "config": "YOUR_GCS_BUCKET/index.json",
-        "css": "YOUR_GCS_BUCKET/index.css"
+        "js": "gs://dev_yho/first_viz/prod/index.js",
+        "config": "gs://dev_yho/first_viz/prod/index.json",
+        "css": "gs://dev_yho/first_viz/prod/index.css"
       }
     }
   ]

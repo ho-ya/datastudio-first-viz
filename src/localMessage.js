@@ -4,145 +4,11 @@ export const message = {
       {
         "dimension": [
           "MAZ"
-        ],
-        "metric": [
-          "878115"
-        ]
-      },
-      {
-        "dimension": [
-          "HAZ"
-        ],
-        "metric": [
-          "852484"
-        ]
-      },
-      {
-        "dimension": [
-          "LVZ"
-        ],
-        "metric": [
-          "763851"
-        ]
-      },
-      {
-        "dimension": [
-          "KN"
-        ],
-        "metric": [
-          "551543"
-        ]
-      },
-      {
-        "dimension": [
-          "RND"
-        ],
-        "metric": [
-          "545845"
         ]
       },
       {
         "dimension": [
           "OZ"
-        ],
-        "metric": [
-          "530830"
-        ]
-      },
-      {
-        "dimension": [
-          "LN"
-        ],
-        "metric": [
-          "456686"
-        ]
-      },
-      {
-        "dimension": [
-          "SB"
-        ],
-        "metric": [
-          "404094"
-        ]
-      },
-      {
-        "dimension": [
-          "RR"
-        ],
-        "metric": [
-          "348016"
-        ]
-      },
-      {
-        "dimension": [
-          "GT-ET"
-        ],
-        "metric": [
-          "275734"
-        ]
-      },
-      {
-        "dimension": [
-          "NP"
-        ],
-        "metric": [
-          "256604"
-        ]
-      },
-      {
-        "dimension": [
-          "AZ-WAZ"
-        ],
-        "metric": [
-          "221023"
-        ]
-      },
-      {
-        "dimension": [
-          "SN"
-        ],
-        "metric": [
-          "205292"
-        ]
-      },
-      {
-        "dimension": [
-          "DNN"
-        ],
-        "metric": [
-          "156873"
-        ]
-      },
-      {
-        "dimension": [
-          "PAZ"
-        ],
-        "metric": [
-          "127287"
-        ]
-      },
-      {
-        "dimension": [
-          "kuestenfischer"
-        ],
-        "metric": [
-          "73498"
-        ]
-      },
-      {
-        "dimension": [
-          "jobsfuerniedersachsen"
-        ],
-        "metric": [
-          "51278"
-        ]
-      },
-      {
-        "dimension": [
-          "lvz_job"
-        ],
-        "metric": [
-          "17274"
         ]
       }
     ]
@@ -156,24 +22,12 @@ export const message = {
         "type": "TEXT",
         "concept": "DIMENSION"
       }
-    ],
-    "metric": [
-      {
-        "id": "qt_jk2okoazvc",
-        "name": "Record Count",
-        "type": "NUMBER",
-        "concept": "METRIC"
-      }
     ]
   },
   "style": {
-    "barColor": {
-      "value": {
-        "color": "#1e555c"
-      },
-      "defaultValue": {
-        "color": "#1e555c"
-      }
+    "colorVariant": {
+      "value": "farbig",
+      "defaultValue": "weiss"
     }
   },
   "theme": {
