@@ -3,13 +3,13 @@ export const message = {
     "DEFAULT": [
       {
         "dimension": [
-          "MAZ"
+          "OPM"
         ]
-      },
-      {
-        "dimension": [
-          "OZ"
-        ]
+      // },
+      // {
+      //   "dimension": [
+      //     "OZ"
+      //   ]
       }
     ]
   },
@@ -26,7 +26,7 @@ export const message = {
   },
   "style": {
     "colorVariant": {
-      "value": "farbig",
+      "value": "schwarz",
       "defaultValue": "weiss"
     }
   },

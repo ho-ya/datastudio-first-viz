@@ -2,22 +2,22 @@
   "name": "My Visualizations",
   "organization": "RND Redaktionsnetzwerk Deutschland GmbH",
   "description": "My first visualization package.",
-  "logoUrl": "https://logo",
+  "logoUrl": "https://storage.googleapis.com/rnd_brand_logos/RND/01_Logo/farbig/RND_Logo_Digital_Farbig_1_S.png",
   "organizationUrl": "https://url",
   "supportUrl": "https://url",
   "privacyPolicyUrl": "https://url",
   "termsOfServiceUrl": "https://url",
   "packageUrl": "https://url",
-  "devMode": true,
+  "devMode": false,
   "components": [
     {
-      "name": "myViz",
+      "name": "Dynamic Logo Header",
       "description": "My first Community Visualization",
-      "iconUrl": "https://url",
+      "iconUrl": "https://storage.googleapis.com/rnd_brand_logos/RND/01_Logo/farbig/RND_Logo_Digital_Farbig_1_S.png",
       "resource": {
-        "js": "gs://dev_yho/first_viz/dev/index.js",
-        "config": "gs://dev_yho/first_viz/dev/index.json",
-        "css": "gs://dev_yho/first_viz/dev/index.css"
+        "js": "gs://dev_yho/first_viz/prod/index.js",
+        "config": "gs://dev_yho/first_viz/prod/index.json",
+        "css": "gs://dev_yho/first_viz/prod/index.css"
       }
     }
   ]
