@@ -3,7 +3,7 @@ export const message = {
     "DEFAULT": [
       {
         "dimension": [
-          "OPM"
+          "RR"
         ]
       // },
       // {
