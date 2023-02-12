@@ -3,7 +3,7 @@ export const message = {
     "DEFAULT": [
       {
         "dimension": [
-          "RR"
+          "TZ"
         ]
       // },
       // {
@@ -26,7 +26,7 @@ export const message = {
   },
   "style": {
     "colorVariant": {
-      "value": "schwarz",
+      "value": "farbig",
       "defaultValue": "weiss"
     }
   },
