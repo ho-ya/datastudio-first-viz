@@ -3,7 +3,7 @@ export const message = {
     "DEFAULT": [
       {
         "dimension": [
-          "SB"
+          "TAH"
         ]
       // },
       // {
@@ -26,7 +26,7 @@ export const message = {
   },
   "style": {
     "colorVariant": {
-      "value": "farbig",
+      "value": "weiss",
       "defaultValue": "weiss"
     }
   },
